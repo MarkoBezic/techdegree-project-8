@@ -1,0 +1,116 @@
+/* style the grid layout of the main page */
+
+body {
+    position: relative;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: #fcfcfc;
+    padding: 50px;
+    max-width: 920px;
+    margin: auto;
+    justify-self: center;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    gap: 25px;
+    justify-content: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: smaller;
+    font-weight: 500;
+    color: #5d5d5d;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border: 2px solid #e3e3e3;
+    border-radius: 5px;
+    background-color: white;
+    max-width: 400px;
+}
+
+.avatar {
+    border-radius: 50%;
+    margin: auto;
+    padding: 20px 10px 20px 18px;
+    height: 80px;
+}
+
+.text-container{
+    align-self: center;
+}
+
+.name {
+    color: #414a52;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 8px;
+    
+}
+
+.email, .address {
+    font-size: smaller;
+    color: #8c9296;
+    margin: 5px 0;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(100, 100, 100, 0.4);
+}
+
+.modal {
+    width: 375px;
+    margin: 15% auto auto;
+    position: relative;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #788;
+    border-radius: 5px;
+    padding: 30px 20px;
+}
+
+.modal-close {
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+/* ====== Media Queries ====== */
+
+@media (min-width: 700px) {
+    h1{
+        text-align: left;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 900px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
