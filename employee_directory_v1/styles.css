@@ -60,6 +60,7 @@ h1 {
     font-size: smaller;
     color: #8c9296;
     margin: 5px 0;
+
 }
 
 
@@ -73,7 +74,7 @@ h1 {
 }
 
 .modal {
-    width: 375px;
+    width: 310px;
     margin: 15% auto auto;
     position: relative;
     text-align: center;
@@ -81,6 +82,16 @@ h1 {
     border: 1px solid #788;
     border-radius: 5px;
     padding: 30px 20px;
+}
+
+.modal-close {
+    border: none;
+    background-color: none;
+}
+
+hr {
+   margin: 20px 0;
+   border: .5px solid lightgray;
 }
 
 .modal-close {
