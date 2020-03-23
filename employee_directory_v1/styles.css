@@ -8,7 +8,6 @@ body {
     max-width: 920px;
     margin: auto;
     justify-self: center;
-
 }
 
 .grid-container {
@@ -52,17 +51,14 @@ h1 {
     color: #414a52;
     font-size: 14px;
     margin-top: 0;
-    margin-bottom: 8px;
-    
+    margin-bottom: 8px;  
 }
 
 .email, .address, .birthday, .phone {
     font-size: smaller;
     color: #8c9296;
     margin: 5px 0;
-
 }
-
 
 .overlay {
     position: absolute;
@@ -86,7 +82,7 @@ h1 {
 
 .modal-close {
     border: none;
-    background-color: none;
+    background-color: transparent;
 }
 
 hr {
