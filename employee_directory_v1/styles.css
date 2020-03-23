@@ -56,7 +56,7 @@ h1 {
     
 }
 
-.email, .address {
+.email, .address, .birthday, .phone {
     font-size: smaller;
     color: #8c9296;
     margin: 5px 0;
